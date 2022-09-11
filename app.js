@@ -2,7 +2,13 @@ document.querySelector('form').addEventListener('submit', (e) => {
     // Get submitted task
     const formData = new FormData(e.target);
     const task = formData.get('newTask');
+
+    // Clear input field
+    document.querySelector('input').value = '';
+
+    // Stop form submission
     e.preventDefault();
+    
     const taskDiv = addTask(task);
 
     // Get children nodes of taskDiv
