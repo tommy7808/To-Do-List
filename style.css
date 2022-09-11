@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'Lato', serif;
+}
+
+#container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.check {
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+#container > div {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #4361EE;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: #F30050;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button button {
+    background-color: #4CC9F0;
+}
+
+form button {
+    background-color: #70E000;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+form input {
+    width: 65%;
+    height: 35px;
+}
+
+.check-box {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.text {
+    width: 50%;
+    padding: 10px;
+}
+
+.task > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove_border {
+    border: 0;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+p:focus {
+    padding: 10px;
+}
+
+button:hover, img:hover, .check-box:hover {
+    scale: 0.9;
+}
