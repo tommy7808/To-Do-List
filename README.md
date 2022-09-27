@@ -1,5 +1,7 @@
 # To-Do-List App
 
+Click [here](https://tommy7808.github.io/To-Do-List/) to run the app.
+
 ## Project Description
 This is a quick javascript app on a to do list. You can **add**, **edit** and **delete** tasks. I created this app so I could apply the knowledge I've learned so far from a [javascript course](https://www.udemy.com/course/the-web-developer-bootcamp) that I am currently doing.
 
